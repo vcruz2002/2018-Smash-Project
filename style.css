@@ -5,6 +5,7 @@ body{
 h1{
     text-align: center;
     font-family:sans-serif;
+    color: dodgerblue;
 }
 
 
@@ -30,10 +31,44 @@ li a {
     text-decoration: none;
 }
 
+
 li a:hover {
-    background-color: lightblue;
+    background-color:dodgerblue;
 }
 
 .active {
     background-color:lightgray;
+}
+p{
+    padding:1em;
+    margin:1em;
+    font-size: 25px;
+}
+.leadership{
+    transform: rotate(90deg);
+    border:5px solid dodgerblue;
+    border-radius:20em;
+}
+.leadership1{
+    border:5px solid dodgerblue;
+    border-radius: 20em;
+}
+footer{
+    padding:1em;
+    margin: 1em;
+}
+section{
+    float:left;
+}
+#undrabt{
+    margin-top: 3em;
+}
+P{
+    float:right;
+}
+#demo{
+    margin-right: 10em;
+}
+#button{
+    float:auto;
 }
